@@ -1,0 +1,175 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/*Cabecera*/
+
+header{
+    width: 100vw;
+    display: inline-block;
+    background-color: #393d42;
+}
+.headerIzq{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    
+}
+.logoCodoACodo{
+    width: 6em;
+}
+.textoLogo{
+    color: aliceblue;
+    font-size: 1.2em;
+}
+nav ul{
+    margin-right: 4%;
+}
+
+.active{
+    color: antiquewhite;
+}
+.linkVerde{
+    color: rgba(6, 139, 6, 0.938);
+}
+
+/*Imagen Edificio con texto superpuesto*/
+
+.contenedorCentral{
+    position: relative;
+}
+.imagenCentral{
+    width: 100vw;
+    height: auto;
+    filter: brightness(0.5);
+}
+.textoImagen{
+    font-size: 1.1rem;
+    position: absolute;
+    top: 43%;
+    left: 52%;
+    width: 45%;  
+    padding: 1%;
+    text-align: right;  
+    color: aliceblue;
+}
+.botonTransparente{
+    padding: 2% 1.5% 1% 1.5%;
+    border-radius: 5%;
+    border: 1px solid white;
+    background-color: transparent;
+    color: aliceblue;
+}
+.botonVerde{
+    padding: 2% 1.5% 1% 1.5%;
+    border-radius: 5%;
+    border: 1px solid rgba(6, 139, 6, 0.938);
+    background-color: rgba(20, 192, 20, 0.993);
+    color: white;
+}
+
+/*Seccion Oradores*/
+
+.tituloOradores p,h1{
+    text-align: center;
+    margin: 0.5% 0 0.5% 0;
+}
+.fotos{
+    width: 100%;
+}
+.baseCard{
+    border:0.5px gray;
+    box-shadow: 0 0 3px gray;
+    padding: 5% 1% 5% 5%;
+    text-align: left;
+    line-height: 30px;
+}
+.baseCard h5{
+    font-weight: bold;
+}
+.btn{
+    padding: 0.2% 0.5%;
+    font-weight: bold;
+}
+.btn-info{
+    color: antiquewhite;
+}
+
+/*Imagen playa - anuncio gris */
+
+
+.honolulu img{
+    width: 50vw;
+    height: 100%;
+}
+.textoHonolulu{
+    color: antiquewhite;
+    padding-top: 1%;
+    background-color: #393d42;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+.contHonolulu{
+    width: 100vw;
+    margin-top: 3%;
+}
+.btn-outline-light{
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 0.8%;
+}
+
+/*FORMULARIO*/
+.textoCharla{
+    font-size: 18px;
+    font-weight: 400;
+}
+span{
+    text-decoration: underline dotted;
+}
+.formulario{
+    width: 60%;
+    margin: 0 auto;
+}
+textarea::placeholder{
+    padding: 1% 0 0 1%;
+    font-size: 25px;
+}
+.finForm{
+    margin-top: 0.5%;
+    font-size: 15px;
+    font-weight: 300; 
+}
+.botonEnviar{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(116, 182, 17, 0.918);
+    color: antiquewhite;
+    font-size: 25px;
+    padding: 0.5%;
+}
+
+/*FOOTER*/
+footer{
+    width: 100vw;
+    background-color: #064470;
+    margin-top: 1%;
+}
+footer ul li{
+    width: 10%;
+    margin: 0 1.5% 0 1.5%;
+    font-size: 20px;
+    display: table;
+    height: 80px;
+}
+.itemFooter{
+    display: table-cell;
+    vertical-align: middle;
+    color: antiquewhite;
+    text-align: center;
+    vertical-align: middle;
+}
