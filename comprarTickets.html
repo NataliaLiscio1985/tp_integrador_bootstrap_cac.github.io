@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>TP INTEGRADOR</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="headerIzq">
+          <img
+            class="logoCodoACodo"
+            src="img/codoacodo.png"
+            alt="Logo Codo a codo"
+          />
+          <h3 class="textoLogo">Conf Bs As</h3>
+        </div>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"
+              >La conferencia</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Los oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">El lugar y la fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Conviertete en orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link linkVerde" href="comprarTickets.html">Comprar tickets</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container-fluid" id="centro">
+        <div class="categorias container">
+            <div class="categoria1 container">
+                <h5 class="textoDestacado">Estudiante</h5>
+                <p class="descuento">Tienen un descuento</p>
+                <h3 class="textoDestacado">80%</h3>
+                <p class="leyenda">* presentar documentación</p>
+            </div>
+            <div class="categoria2 container">
+                <h5 class="textoDestacado">Trainee</h5>
+                <p class="descuento">Tienen un descuento</p>
+                <h3 class="textoDestacado">50%</h3>
+                <p class="leyenda">* presentar documentación</p>
+            </div>
+            <div class="categoria3 container">
+                <h5 class="textoDestacado">Junior</h5>
+                <p class="descuento">Tienen un descuento</p>
+                <h3 class="textoDestacado">15%</h3>
+                <p class="leyenda">* presentar documentación</p>
+            </div> 
+        </div>
+        <div class="medio">
+          <h5>VENTA</h5>
+          <H1>VALOR DE TICKET $200</H1>
+        </div>
+    </div>
+      <form action="">
+        <div class="row g-3 formulario">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+          </div>
+          <div>
+            <input class="form-control" rows="5" type="email" placeholder="Correo">
+        </div>
+        <div class="col">
+          <label for="" class="labels">Cantidad</label>
+          <input type="number" class="form-control" id="cantidad" placeholder="Cantidad">
+        </div>
+        <div class="col">
+          <label for="" class="labels">Categoria</label>
+          <select class="form-control" name="Categorias" id="seleccionCategorias">
+            <option value="estudiante">Estudiante</option>
+            <option value="trainee">Trainee</option>
+            <option value="junior">Junior</option>
+          </select>
+        </div>
+        <div>
+          <p class="form-control" id="muestraTotal" rows="5">Total a Pagar: $</p>
+        </div>
+        <div class="col">
+          <input type="reset" class="form-control" id="btnBorrar" value="Borrar">
+        </div>
+        <div class="col">
+          <input type="button" class="form-control" id="btnResumen" value="Resumen">
+        </div>
+         
+      </div>
+    </form>
+        
+    <footer>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link itemFooter" aria-current="page" href="#">Preguntas frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link textoFooter itemFooter" href="#">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link itemFooter" href="#">Prensa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link itemFooter">Conferencia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link itemFooter">Términos y condiciones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link itemFooter">Privacidad</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link itemFooter">Estudiantes</a>
+            </li>
+          </ul>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="integrador.js"></script>
+  </body>
+</html>

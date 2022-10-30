@@ -173,3 +173,61 @@ footer ul li{
     text-align: center;
     vertical-align: middle;
 }
+
+/*Seccion Comprar tickets*/
+.categorias{
+    display: inline-flex;
+    text-align: center;
+    width: 70%;
+    margin: 5% 0 1% 15%;
+
+}
+.categoria1, .categoria2, .categoria3{
+    border: 2px solid;
+    margin-right: 1%;
+    padding: 1% 0 0 0;
+    line-height: 50px;
+}
+.descuento{
+    font-size: 20px;
+}
+.leyenda{
+    opacity: 50%;
+}
+
+.textoDestacado{
+    font-size: 30px;
+    font-weight: 900;
+}
+.categoria1{
+    border-color: blue;
+}
+
+.categoria2{
+    border-color: mediumaquamarine;
+}
+.categoria3{
+    border-color: orange;
+}
+.medio{
+    text-align: center;
+    font-weight: bold;
+}
+
+#muestraTotal{
+    background-color: lightblue;
+    color: #064470;
+    padding: 2%;
+    margin-top: 2%;
+}
+#btnBorrar, #btnResumen{
+    background-color: 	#9ACD32;
+    color: antiquewhite;
+    padding: 2%;
+}
+.formularioVenta{
+    text-align: center;
+}
+.labels{
+    margin-bottom: 2%;
+}
